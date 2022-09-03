@@ -10,8 +10,8 @@ edition.workspace = true
 publish = false
 
 [lib]
-name = "wasmtime"
-crate-type = ["staticlib", "cdylib"]
+name = "wasmtime_c_api"
+crate-type = ["staticlib", "cdylib", "rlib"]
 doc = false
 test = false
 doctest = false
